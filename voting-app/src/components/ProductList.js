@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Product from './Product'
 
 import products from '../products.json'
+import axios from 'axios'
 
 class ProductList extends Component {
 
@@ -16,9 +17,14 @@ class ProductList extends Component {
   }
 
   componentDidMount = () => {
-    this.setState({
-      products: products
-    });
+    axios.get('http://127.0.0.1:3001/products').then(response => {
+      response = response.data
+      this.setState({
+        products: response
+      });
+    }).catch(error => {
+      console.log(error)
+    })
   }
   
 
