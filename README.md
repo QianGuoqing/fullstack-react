@@ -4,4 +4,6 @@
 - [03.使用axios获取数据](http://www.jianshu.com/p/1400eb56ec15)
 - [04.React.Form表单（一）](http://www.jianshu.com/p/a9743d4cfdf5)
 - [05.React.Form表单（二）](http://www.jianshu.com/p/811676600767)
+- [06.Virtual DOM](http://www.jianshu.com/p/136f42364865)
+- [07.JSX](http://www.jianshu.com/p/3c3afe619986)
 
